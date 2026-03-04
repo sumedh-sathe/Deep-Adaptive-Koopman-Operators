@@ -25,3 +25,7 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 |**Trajectory I**| **Trajectory II**|
 |:---:|:---:|
 |![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/Eight-Curve.png)|![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/wave-curve.png)|
+
+## References
+1. Mahmoud Selim, undefined. Sriharsha Bhat, undefined. Karl Henrik Johansson, "MetaKoopman: Bayesian Meta-Learning of Koopman Operators for Modeling Structured Dynamics under Distribution Shifts," in The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
+
