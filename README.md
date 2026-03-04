@@ -1,5 +1,5 @@
 # Deep-Adaptive-Koopman-Operators
-A deep meta-learning framework that learns updates over Koopman operators, enabling fast adaptation of nonlinear dynamics models under regime shifts
+A deep meta-learning framework that learns updates over Koopman operators, enabling fast adaptation of nonlinear dynamics models under dynamic regime shifts
 
 ## Background: Koopman Operator Theory
  - Koopman operator theory represents nonlinear dynamics linearly in a lifted latent space.
