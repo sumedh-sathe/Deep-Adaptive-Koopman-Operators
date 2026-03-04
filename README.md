@@ -20,3 +20,8 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 - A lifting map and an initial Koopman Operator is learned by using data collected by executing skidpad, slalom and fish-hook maneuvers on a sigle regime {0.8}
 - The Koopman-MPC is theb tasked with tracking a trajectory passing over regimes not covered in the training {0.6, 0.8}
 - The adaptation module synthesizes updates based on past states and actions using formulation I
+
+## Results
+|**Trajectory I**| **Trajectory II**|
+|:---:|:---:|
+|![]()|![]()|
