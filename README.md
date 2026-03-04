@@ -15,7 +15,7 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 |Step 1 - Lift past trajectories of states using deep learning based lifting maps <br> Step 2 - Update the Koopman Operator Matrices via Gradient by minimizing the error between true and predicted states <br> Step 3 - Pass the updates to MPC control algorithm <br> Step 4 -  Compute and execute control actions by minimizing the control objective|Step 1 — Context Encoding: Encode past trajectories of states and actions into latent representations<br>Step 2 — Bayesian Meta-Update: Update the prior over the Koopman operator using recent data, yielding a posterior distribution over dynamics<br>Step 3 — Prediction & Planning: Roll out future latent states under the posterior Koopman operator and project them into the physical state space<br>Training Objective: Minimize the Negative Log-Likelihood (NLL) of trajectories under the predictive posterior, encouraging calibrated, adaptable Koopman dynamics|
 
 ## Implementation
-![Multi-Regime Scenario Implementation]()
+![Multi-Regime Scenario Implementation](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/scenario_description.png)
 - A multiregime driving scenario is modeled using [AutoDRIVE](https://autodrive-ecosystem.github.io/) simulator consisting of four distinct friction regimes {0.4, 0.6, 0.8, 1.0}
 - A lifting map and an initial Koopman Operator is learned by using data collected by executing skidpad, slalom and fish-hook maneuvers on a sigle regime {0.8}
 - The Koopman-MPC is theb tasked with tracking a trajectory passing over regimes not covered in the training {0.6, 0.8}
