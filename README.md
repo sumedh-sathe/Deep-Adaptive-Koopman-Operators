@@ -10,8 +10,8 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 ## Formulation
 |**Formulation I**| **Formulation II**|
 |:---:|:---:|
-|![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/formulation_I.png)|Step 1 — Context Encoding: Encode past trajectories of states and actions into latent representations.
-Step 2 — Bayesian Meta-Update: Update the MNIW prior over the Koopman operator using recent data, yielding a posterior distribution over dynamics.
-Step 3 — Prediction & Planning: Roll out future latent states under the posterior Koopman operator and project them into the physical state space.
+|![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/formulation_I.png)|Step 1 — Context Encoding: Encode past trajectories of states and actions into latent representations \\
+Step 2 — Bayesian Meta-Update: Update the MNIW prior over the Koopman operator using recent data, yielding a posterior distribution over dynamics \\
+Step 3 — Prediction & Planning: Roll out future latent states under the posterior Koopman operator and project them into the physical state space \\
 Training Objective: Minimize the Negative Log-Likelihood (NLL) of trajectories under the predictive posterior, encouraging calibrated, adaptable Koopman dynamics.|
 
