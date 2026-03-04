@@ -10,7 +10,7 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 ## Formulation
 |**Formulation I**| **Formulation II**|
 |:---:|:---:|
-|<img height="830" alt="image" src="https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/formulation_I.png" />|<img height="830" alt="image" src="https://github.com/user-attachments/assets/b2634054-4c61-431d-a590-f4dbad52411c" />|
+|<img height="830" alt="image" src="https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/formulation_I.png" />|<img height="830" alt="image" src="https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/Formulation_II.png"/>|
 |:---|:---|
 |Step 1 - Lift past trajectories of states using deep learning based lifting maps <br> Step 2 - Update the Koopman Operator Matrices via Gradient by minimizing the error between true and predicted states <br> Step 3 - Pass the updates to MPC control algorithm <br> Step 4 -  Compute and execute control actions by minimizing the control objective|Step 1 — Context Encoding: Encode past trajectories of states and actions into latent representations<br>Step 2 — Bayesian Meta-Update: Update the prior over the Koopman operator using recent data, yielding a posterior distribution over dynamics<br>Step 3 — Prediction & Planning: Roll out future latent states under the posterior Koopman operator and project them into the physical state space<br>Training Objective: Minimize the Negative Log-Likelihood (NLL) of trajectories under the predictive posterior, encouraging calibrated, adaptable Koopman dynamics|
 
