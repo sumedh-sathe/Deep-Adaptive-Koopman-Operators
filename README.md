@@ -27,4 +27,6 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 
 ## References
 1. Mahmoud Selim, undefined. Sriharsha Bhat, undefined. Karl Henrik Johansson, "MetaKoopman: Bayesian Meta-Learning of Koopman Operators for Modeling Structured Dynamics under Distribution Shifts," in The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
+2. Singh R, Sah CK, Keshavan J. Adaptive Koopman embedding for robust control of nonlinear dynamical systems. The International Journal of Robotics Research. 2025;44(13):2235-2261. doi:10.1177/02783649251341907
+  
 
