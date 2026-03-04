@@ -24,4 +24,4 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
 ## Results
 |**Trajectory I**| **Trajectory II**|
 |:---:|:---:|
-|![]()|![]()|
+|![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/Eight-Curve.png)|![](https://github.com/sumedh-sathe/Deep-Adaptive-Koopman-Operators/blob/main/Images/wave-curve.png)|
