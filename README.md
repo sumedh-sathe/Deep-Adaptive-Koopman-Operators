@@ -8,5 +8,5 @@ A deep meta-learning framework that learns updates over Koopman operators, enabl
  - Classical Koopman models are typically trained offline and do not model uncertainty or online adaptation.
 
 ## Formulation
-|**Information A**|**Information B**|
+|##Formulation I | Formulation II|
 |:---:|:---:|
